@@ -5,7 +5,7 @@ import pandas as pd
 import tempfile
 import os
 
-from app.pipeline import run_assessment_pipeline
+from .pipeline import run_assessment_pipeline
 from analytics.metrics import aggregate_results, compute_summary_metrics
 
 st.set_page_config(page_title="AssessAI", layout="centered")
