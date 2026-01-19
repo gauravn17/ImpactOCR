@@ -1,5 +1,12 @@
 # app/pipeline.py
+# app/pipeline.py
 
+import sys
+from pathlib import Path
+
+# Ensure project root is on PYTHONPATH
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT_DIR))
 from typing import Dict, List, Tuple
 import pandas as pd
 
