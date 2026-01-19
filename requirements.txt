@@ -1,0 +1,7 @@
+streamlit>=1.30
+pandas
+numpy
+opencv-python-headless
+pillow
+pytesseract
+streamlit-drawable-canvas
