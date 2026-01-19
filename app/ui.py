@@ -1,11 +1,17 @@
 # app/ui.py
 
+import sys
+from pathlib import Path
+
+# Add project root to PYTHONPATH
+ROOT_DIR = Path(__file__).resolve().parent.parent
+sys.path.append(str(ROOT_DIR))
 import streamlit as st
 import pandas as pd
 import tempfile
 import os
 
-from .pipeline import run_assessment_pipeline
+from app.pipeline import run_assessment_pipeline
 from analytics.metrics import aggregate_results, compute_summary_metrics
 
 st.set_page_config(page_title="ImpactOCR", layout="centered")
