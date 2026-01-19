@@ -8,9 +8,9 @@ import os
 from .pipeline import run_assessment_pipeline
 from analytics.metrics import aggregate_results, compute_summary_metrics
 
-st.set_page_config(page_title="AssessAI", layout="centered")
+st.set_page_config(page_title="ImpactOCR", layout="centered")
 
-st.title("📄 AssessAI")
+st.title("📄 ImpactOCR")
 st.subheader("Offline OCR-based MCQ Assessment Platform")
 
 st.markdown(
