@@ -3,9 +3,10 @@
 import sys
 from pathlib import Path
 
-# Ensure project root on PYTHONPATH
-ROOT_DIR = Path(__file__).resolve().parent.parent
-sys.path.append(str(ROOT_DIR))
+# Ensure repo root is on PYTHONPATH (Streamlit Cloud fix)
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 import streamlit as st
 import pandas as pd
