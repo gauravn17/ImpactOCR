@@ -1,12 +1,12 @@
 # app/pipeline.py
-# app/pipeline.py
 
 import sys
 from pathlib import Path
 
-# Ensure project root is on PYTHONPATH
-ROOT_DIR = Path(__file__).resolve().parent.parent
-sys.path.append(str(ROOT_DIR))
+# Ensure repo root is on PYTHONPATH (Streamlit Cloud)
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 from typing import Dict, List, Tuple
 import pandas as pd
 
