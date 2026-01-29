@@ -7,6 +7,8 @@ ImpactOCR is an **offline-first OCR grading system** that digitizes and grades p
 
 Designed for **NGOs, schools, and education programs** where internet access is unreliable, ImpactOCR converts scanned answer sheets into **structured, sponsor-ready analytics**—without requiring cloud connectivity or ML-heavy infrastructure.
 
+<img width="1710" height="1107" alt="Screenshot 2026-01-29 at 12 37 51 PM" src="https://github.com/user-attachments/assets/f143d33b-3aa8-4189-a788-2211af29c842" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9384e4da-70e5-401a-a064-fc02f729eda6" />
 ---
 
 ## 🎯 Problem
