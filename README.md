@@ -3,6 +3,8 @@ Offline OCR-based assessment platform that digitizes and grades paper-based MCQ 
 
 Designed for NGOs, schools, and education programs where internet access is unreliable, AssessAI converts scanned answer sheets into structured, sponsor-ready analytics.
 
+<img width="1710" height="1107" alt="Screenshot 2026-01-29 at 12 37 51 PM" src="https://github.com/user-attachments/assets/1b3f21a4-8165-490c-b2c7-306671a35495" />
+
 ---
 
 ## 🎯 Problem
